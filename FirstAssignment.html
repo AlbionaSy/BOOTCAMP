@@ -110,25 +110,30 @@
         
         <hr color="orange">
         
-        <h4>Please, fill the form to contact me:</h4>
+        <h2>Please, fill the form to contact me:</h2>
         <form>
-            <label for="">Name: </label>
-            <input type="text" placeholder="Enter your name">
-            <br><br>
-            <span>Gender:</span>
-            <label for="female">F</label>
-            <input type="radio" name="gender" id="female">
-            <label for="male">M</label>
-            <input type="radio" name="gender" id="male">
-            <br><br>
-            <label for="">Email: </label>
-            <input type="email" placeholder="john@smith.com">
-            <br><br>
-            <label for="">Upload your CV: </label>
-            <input type="file" accept=".pdf">
-            <br><br>
-            <button type="submit">Submit</button>
-
+            <fieldset>
+                <legend>Your personal data</legend>
+                    <br>
+                    <label for="Name">Name: </label>
+                    <input required type="name" placeholder="Enter your name">
+                    <br><br>
+                    <span>Gender:</span>
+                    <label for="female">F</label>
+                    <input required type="radio" name="gender" id="female">
+                    <label for="male">M</label>
+                    <input type="radio" name="gender" id="male">
+                    <br><br>
+                    <label for="Email">Email: </label>
+                    <input required type="email" placeholder="john@smith.com">
+                    <br><br>
+                    <label required for="CV">Upload your CV: </label>
+                    <input type="file" accept=".pdf">
+                    <br><br>
+                    <textarea cols="30" rows="5">Leave a message...</textarea>
+                    <br><br>
+                    <button type="submit">Submit</button>
+            </fieldset>
         </form>
 
 </body>
