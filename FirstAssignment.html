@@ -5,7 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment1</title>
+
+    <style>
+        table, th, td, tr {
+          width: 35%;
+          border: 1px solid black;
+          text-align: center;
+          border-collapse: collapse;
+        }  
+    </style>
+
 </head>
+
 <body>
         <hr color="orange">
         <img src="imgs\profile.png" width="8%" alt="profile" halign="left">
@@ -13,39 +24,112 @@
         <hr color="orange">
 
         <h2>Personal Information</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia minus commodi porro nobis corrupti.</p>
-            
+
             <span><b>Birth:</b> 01/01/2000</span>
             <span><b>Email:</b> example@mail.com</span>
             <span><b>Phone:</b> 012345678</span>
+            <span><b>Address:</b> St. Name</span>
+            <br><br>
+            <a href="https://www.linkedin.com/" target="_blank">View my LinkedIn Profile</a>
         <hr color="orange">
 
         <h2>Work Experience</h2>
 
         <h4>Job Title at Company</h4>
             <p><i>Aprill 2022 - Present</i></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est rem qui omnis vitae quod rerum, cupiditate alias voluptate consectetur provident consequuntur nihil id excepturi corporis. </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     
         <h4>Job Title at Company</h4>
             <p><i>October 2020 - January 2022</i></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est rem qui omnis vitae quod rerum, cupiditate alias voluptate consectetur provident consequuntur nihil id excepturi corporis. </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         <hr color="orange">
 
         <h2>Skills</h2>
+        <ol>
+            <li>General Skills</li>
+                <br>
+                <ul>
+                    <li>Communication skills</li>
+                    <li>Organizational and Managerial</li>
+                    <li>Problem-solving abilities</li>
+                    <li>Creativity</li>
+                    <li>Multitasking</li>
+                    <li>Team collaboration</li>
+                </ul>
+            <br>
+            <li>Digital skills</li>
+                <br>
+                <ul>
+                    <li>HTML 5</li><input type="range" min="0" max="10" value="10">
+                    <li>CSS</li><input type="range" min="0" max="10" value="9">
+                    <li>JavaScript</li><input type="range" min="0" max="10" value="5">
+                </ul>
+        </ol>
+        
         <hr color="orange">
 
         <h2>Education</h2>
 
         <h4>University</h4>
             <p><i>October 2018 - June 2020 </i></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est rem qui omnis vitae quod rerum, cupiditate alias voluptate consectetur provident consequuntur nihil id excepturi corporis. </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
        
         <h4>High School</h4>
             <p><i>Aprill 2015 - June 2018</i></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est rem qui omnis vitae quod rerum, cupiditate alias voluptate consectetur provident consequuntur nihil id excepturi corporis. </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         <hr color="orange">
 
-        <a href="forma">Kliko ketu per te shfaq formen</a>
+        <h2>Languages</h2>
+
+        <ul>
+            <li>Mother Longue</li>
+            <li>English (*table below)</li>
+        </ul>
+
+        <table>
+
+            <tr>
+              <th>Understanding</th>
+              <th>Speaking</th>
+              <th>Writing</th>
+            </tr>
+
+            <tr>
+              <td>Hearing/Reading</td>
+              <td>Interactivity/Production</td>
+              <td>/</td>
+            </tr>
+
+            <tr>
+              <td>B1 / B1</td>
+              <td>A2 / A2 </td>
+              <td>A2</td>
+            </tr>
+
+        </table>
         
+        <hr color="orange">
+        
+        <h4>Please, fill the form to contact me:</h4>
+        <form>
+            <label for="">Name: </label>
+            <input type="text" placeholder="Enter your name">
+            <br><br>
+            <span>Gender:</span>
+            <label for="female">F</label>
+            <input type="radio" name="gender" id="female">
+            <label for="male">M</label>
+            <input type="radio" name="gender" id="male">
+            <br><br>
+            <label for="">Email: </label>
+            <input type="email" placeholder="john@smith.com">
+            <br><br>
+            <label for="">Upload your CV: </label>
+            <input type="file" accept=".pdf">
+            <br><br>
+            <button type="submit">Submit</button>
+
+        </form>
+
 </body>
 </html>
