@@ -1,0 +1,24 @@
+
+main{
+    margin: auto 225px;
+}
+nav{
+    background-color: aquamarine;
+    text-decoration: none;
+    padding: 10px;
+}
+span{
+    font-size: 25px;
+    font-weight: bold;
+}
+span a img{
+    width: 30px;
+}
+footer{
+    margin: auto 210px;
+    background-color: aquamarine;
+}
+footer table tr td{
+    padding-left: 25px;
+    padding-right: 50px;
+}
